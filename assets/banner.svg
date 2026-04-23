@@ -1,0 +1,59 @@
+<svg width="1600" height="480" viewBox="0 0 1600 480" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1600" y2="480" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B1020"/>
+      <stop offset="0.45" stop-color="#131A2E"/>
+      <stop offset="1" stop-color="#1E293B"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="280" y1="80" x2="1320" y2="400" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22D3EE"/>
+      <stop offset="0.5" stop-color="#60A5FA"/>
+      <stop offset="1" stop-color="#A78BFA"/>
+    </linearGradient>
+    <filter id="blurGlow" x="-100" y="-100" width="1800" height="680" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="60"/>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="480" rx="28" fill="url(#bg)"/>
+
+  <g filter="url(#blurGlow)" opacity="0.45">
+    <circle cx="280" cy="100" r="110" fill="#22D3EE"/>
+    <circle cx="1360" cy="380" r="140" fill="#8B5CF6"/>
+    <circle cx="1080" cy="120" r="80" fill="#3B82F6"/>
+  </g>
+
+  <g opacity="0.16" stroke="#94A3B8">
+    <path d="M0 320H1600"/>
+    <path d="M0 240H1600"/>
+    <path d="M0 160H1600"/>
+    <path d="M0 80H1600"/>
+    <path d="M240 0V480"/>
+    <path d="M480 0V480"/>
+    <path d="M720 0V480"/>
+    <path d="M960 0V480"/>
+    <path d="M1200 0V480"/>
+    <path d="M1440 0V480"/>
+  </g>
+
+  <rect x="80" y="76" width="170" height="36" rx="18" fill="#0F172A" stroke="#334155"/>
+  <text x="165" y="99" fill="#E2E8F0" font-family="Inter, Arial, sans-serif" font-size="18" text-anchor="middle">面向中文用户</text>
+
+  <text x="80" y="190" fill="white" font-family="Inter, Arial, sans-serif" font-size="82" font-weight="800">CTF SUPER HUB</text>
+  <text x="80" y="248" fill="url(#accent)" font-family="Inter, Arial, sans-serif" font-size="36" font-weight="700">CTF / 逆向 Skills 中文整合发布页</text>
+
+  <text x="80" y="308" fill="#CBD5E1" font-family="Inter, Arial, sans-serif" font-size="28">一个入口自动分流 · 头脑风暴 · 教学模式 · 比赛模式 · 只提示模式</text>
+  <text x="80" y="354" fill="#94A3B8" font-family="Inter, Arial, sans-serif" font-size="24">GitHub 负责展示与分发，LinuxDo 负责中文社区传播与反馈</text>
+
+  <g transform="translate(1040 120)">
+    <rect width="420" height="220" rx="24" fill="#0F172A" stroke="#334155"/>
+    <rect x="26" y="26" width="140" height="32" rx="16" fill="#111827" stroke="#334155"/>
+    <text x="96" y="47" fill="#F8FAFC" font-family="Inter, Arial, sans-serif" font-size="16" text-anchor="middle">默认入口</text>
+    <text x="26" y="96" fill="#F8FAFC" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="700">ctf-super-hub</text>
+    <text x="26" y="136" fill="#CBD5E1" font-family="Inter, Arial, sans-serif" font-size="18">auto / brainstorm / manual</text>
+    <text x="26" y="166" fill="#CBD5E1" font-family="Inter, Arial, sans-serif" font-size="18">teaching / competition / hints-only</text>
+    <rect x="26" y="182" width="158" height="18" rx="9" fill="#0B1020" stroke="#334155"/>
+    <rect x="26" y="182" width="122" height="18" rx="9" fill="url(#accent)"/>
+    <text x="198" y="196" fill="#94A3B8" font-family="Inter, Arial, sans-serif" font-size="12">中文用户优先体验</text>
+  </g>
+</svg>
