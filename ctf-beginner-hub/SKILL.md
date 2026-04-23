@@ -1,95 +1,98 @@
 ---
 name: "CTF•新手入口"
-description: "面向 CTF 与逆向新手的统一入口，用于在自动分流与先头脑风暴再选 skill 之间切换，适合不知道该用哪个 ctf-* skill、想先理清题意、或想边做边学的场景;触发名:ctf-beginner-hub"
-argument-hint: "[auto|brainstorm|manual] [challenge-file-or-url-or-description]"
+description: "面向中文用户和新手的统一入口，保持原有两种模式：1) 自动分流，2) 先头脑风暴再分流。分流目标既可以是 ctf-*，也可以在 Web/接口/漏洞验证阶段增强到 strix-*；适合不知道该用哪个 skill、想先理清题意、又不想自己先判断何时该切到工具链或漏洞专项的场景;触发名:ctf-beginner-hub"
+argument-hint: "[auto|brainstorm] [challenge-file-or-url-or-description]"
 metadata:
   user-invocable: "true"
 ---
 
-# CTF Beginner Hub
+# CTF 新手入口
 
 这是给 **不会选 skill 的新手** 用的统一入口。
 
-## 什么时候用
-
-出现下面任一情况就用这个 skill：
-
-- 你拿到一道题，但不知道它属于哪一类
-- 你知道题面内容，但不知道第一步怎么下手
-- 你想先把思路讲清楚，再开始自动分流
-- 你希望回答更像“带学”，而不是直接甩术语
+它保持和你之前一样的两种模式，只是在需要时把 Strix 当成增强层接进去。
 
 ## 两种模式
 
 ### 模式 1：自动分流（默认推荐）
 
 适合：
-- 已经有题目附件、URL、IP、端口、源码、二进制
-- 想快点进入正确 skill
+- 已经拿到题面、附件、URL、IP、端口、源码、二进制
 - 不想自己判断分类
 
 流程：
-1. 收集输入：题面、附件、URL、服务、已知线索
-2. 做轻量 triage：文件类型、服务类型、题面关键词
-3. 给出主分类 + 备选分类 + 判断理由
-4. 高置信度时直接转到对应 `ctf-*` skill
-5. 低置信度时让用户在“继续自动 / 手动选 / 先头脑风暴”之间选
-
-自动分流优先使用：`solve-challenge`
+1. 先判断更像哪一类题
+2. 再决定是走 `ctf-*` 还是增强到 `strix-*`
+3. 给你最小化下一步
 
 ### 模式 2：先头脑风暴，再分流
 
 适合：
-- 题目描述抽象，看不懂想干什么
-- 想先把目标、限制、已有进度讲清楚
-- 想先学习“为什么这么判断”，再选 skill
+- 看不懂题面
+- 不知道第一步做什么
+- 想先理清目标、材料、卡点
 
 流程：
-1. 用 `brainstorming` 风格先澄清：题目给了什么、做过什么、卡在哪里、想快做还是带学
-2. 头脑风暴结束后，进入：
-   - **自动选**：继续交给 `solve-challenge`
-   - **手动选**：从分类表中人工挑选 skill
+1. 先澄清题目到底给了什么
+2. 再判断走 `ctf-*` 还是增强到 `strix-*`
+3. 再给你最小化下一步
 
-## 手动分类表
+## 什么情况下还是走原来的 `ctf-*`
 
-- `ctf-web`：XSS、SQLi、SSTI、SSRF、JWT、上传、鉴权、原型污染
-- `ctf-crypto`：RSA、AES、ECC、PRNG、签名、哈希、数学构造
-- `ctf-reverse`：ELF、EXE、APK、WASM、固件、自定义 VM、混淆代码
-- `ctf-pwn`：溢出、ROP、fmt、heap、沙箱逃逸、内核利用
-- `ctf-forensics`：PCAP、内存、磁盘、注册表、隐写、音频、日志
-- `ctf-osint`：社交媒体、地理定位、公开资料、DNS、用户名追踪
-- `ctf-malware`：恶意样本、C2、流量协议、脚本混淆、PE/.NET
-- `ctf-misc`：pyjail、bash jail、编码、约束、游戏、RF/SDR、杂项
-- `ctf-ai-ml`：prompt injection、模型提取、对抗样本、训练投毒、LLM 题
-- `ctf-writeup`：题做完以后整理标准 writeup
+- Reverse / Pwn / Crypto / Forensics / OSINT / Malware / Misc / AI/ML
+- 还停留在 CTF 大类判断阶段
+- 还没有进入具体 Web 测试动作阶段
+
+## 什么情况下增强到 `strix-*`
+
+当题目已经明显进入下面这些动作时：
+- 要探测 URL / 状态码 / 标题 / 路由
+- 要爬路径、跑字典、跑模板扫描
+- 要验证 SQLi / XSS / SSRF / RCE / JWT / IDOR / 上传 / 文件包含
+
+### 新手默认增强顺序
+
+#### 先用工具类
+- `strix-httpx`
+- `strix-katana`
+- `strix-ffuf`
+- `strix-nuclei`
+- `strix-sqlmap`
+
+#### 再用漏洞专项
+- `strix-sql-injection`
+- `strix-xss`
+- `strix-ssrf`
+- `strix-rce`
+- `strix-authentication-jwt`
+- `strix-idor`
+- `strix-information-disclosure`
+- `strix-insecure-file-uploads`
+- `strix-open-redirect`
+- `strix-csrf`
+- `strix-business-logic`
+- `strix-broken-function-level-authorization`
+- `strix-path-traversal-lfi-rfi`
 
 ## 新手友好输出规范
 
-统一尽量按这个结构输出：
-
-1. 这题现在看起来像什么
-2. 为什么选这个 skill
-3. 现在先做的 1~3 步
-4. 每一步命令是干什么的
-5. 如果失败，下一条分支是什么
+1. 这题现在更像什么
+2. 为什么先走这个 skill
+3. 先做哪 1~3 步
+4. 每一步是在干什么
+5. 如果没结果，下一步切到哪个 skill
 6. 术语用一句人话解释
 
 ## 推荐默认策略
 
-如果用户没有指定模式：
-- **已有附件 / URL / 服务** -> 先走“自动分流”
-- **只有模糊题面 / 明显很迷茫** -> 先走“头脑风暴”
-
-## 需要时再读的参考文件
-
-- 快速选择模式：`references/router-cheatsheet.md`
-- 可直接复制使用的话术：`references/copy-paste-prompts.md`
-- 统一输出格式：`references/output-template.md`
-- 给新手的使用例子：`references/examples.md`
+如果用户没有指定：
+- **已有附件 / URL / 服务** -> 先走自动分流
+- **只有模糊题面 / 明显很迷茫** -> 先走头脑风暴
+- **已经确定是 Web / 接口题并进入验证阶段** -> 允许增强到 `strix-*`
 
 ## 结束条件
 
 当主 skill 被确定后：
-- 进入对应 `ctf-*` skill 深挖
-- 如果题目跨领域，可同时参考第二技能
+- 进入对应 `ctf-*` 深挖
+- 或增强到对应 `strix-*`
 - 题做完后转 `ctf-writeup`

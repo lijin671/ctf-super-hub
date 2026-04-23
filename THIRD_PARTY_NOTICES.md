@@ -80,3 +80,19 @@
 
 1. 为 `ctf-ai-ml` ~ `solve-challenge` 补更精确的**上游目录映射**  
 2. 在上游仓库中再人工核对一次**最终许可证文本**与**作者/贡献者归属**
+
+
+---
+
+## 4) Strix 增强能力子集
+
+涉及目录：
+
+- `strix-*`
+- `strix-beginner-hub`
+
+- Source: `/Users/zhaomingzhe/.codex/skills/strix-*`
+- Original author: 未在导出内容中统一标识；请以你本地 Strix 来源为准
+- Original license: 请按 Strix 实际上游来源补充确认
+- Modified by: `asdfgh1445`
+- Notes: exported only a beginner-friendly subset; used as an enhancement layer for the existing CTF bundle rather than replacing the original two-mode entry structure

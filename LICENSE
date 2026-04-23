@@ -54,6 +54,10 @@ licenses.
 - Source: `https://github.com/ljagiello/ctf-skills`
 - License: treated according to their upstream licensing and the corresponding notices recorded in `THIRD_PARTY_NOTICES.md`
 
+### `strix-*` and `strix-beginner-hub`
+- Source: imported from the local Strix skill set; see `THIRD_PARTY_NOTICES.md` for attribution status and follow-up verification notes
+- License: treat according to their upstream licensing and the corresponding notices recorded in `THIRD_PARTY_NOTICES.md`
+
 ## 3. Precedence
 
 For any third-party imported content, the original upstream license terms take precedence over the MIT terms above.
