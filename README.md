@@ -35,7 +35,7 @@
 - [适合谁](#适合谁)
 - [包含哪些 skill](#包含哪些-skill)
 - [快速开始](#快速开始)
-- [LinuxDo 社区（中文用户）](#linuxdo-社区中文用户)
+- [加入社区 · 共建生态](#-加入社区--共建生态)
 - [安装](#安装)
 - [工具检查](#工具检查)
 - [仓库结构](#仓库结构)
@@ -162,26 +162,6 @@
 
 ---
 
-## LinuxDo 社区（中文用户）
-
-既然目标用户是中文用户，这里保留一个统一的 LinuxDo 社区入口。
-
-### 建议发帖方向
-
-| 场景 | 推荐板块方向 | 适合发什么 |
-|---|---|---|
-| 项目发布 / 更新 | **开发调优** | 仓库介绍、版本更新、设计思路、功能演示 |
-| 工具分享 / 资源整理 | **资源荟萃** | CTF skill 包、脚本、模板、安装方法、使用示例 |
-
-### 链接
-
-- LinuxDo 发布帖：待补充
-- LinuxDo 社区：<https://linux.do>
-
-更完整说明见：[`docs/LINUXDO.md`](./docs/LINUXDO.md)
-
----
-
 ## 安装
 
 ### 安装到默认 Codex 技能目录
@@ -270,3 +250,28 @@ python3 scripts/validate_skills.py
 - `.github/workflows/validate.yml`
 
 ---
+
+---
+
+### 🤝 加入社区 · 共建生态
+
+如果你也是中文用户，欢迎一起把这套 CTF / 逆向技能整合做得更完整、更好用。
+
+你可以通过下面两个入口参与：
+
+- 在 **GitHub** 提交 issue / PR，补文档、补规则、补 skill、补示例
+- 在 **LinuxDo** 参与中文讨论、反馈体验、分享用法、同步更新
+
+<p align="center">
+  <a href="https://github.com/asdfgh1445/ctf-super-hub">
+    <img src="https://img.shields.io/badge/GitHub-ctf--super--hub-181717?style=for-the-badge&logo=github" alt="GitHub" />
+  </a>
+  &nbsp;
+  <a href="https://linux.do">
+    <img src="https://img.shields.io/badge/社区-LinuxDo-3B82F6?style=for-the-badge" alt="LinuxDo" />
+  </a>
+</p>
+
+<p align="center">
+  <sub>LinuxDo 发布帖：待补充</sub>
+</p>
