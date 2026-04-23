@@ -4,9 +4,9 @@
   <img src="./assets/banner.svg" alt="CTF Super Hub Banner" width="100%" />
 </p>
 
-# CTF Super Hub / CTF Skills 中文整合包
+# CTF Super Hub / CTF Skills 小白整合包
 
-**给中文用户准备的一套 CTF / 逆向题目入口。**  
+**给小白用户准备的一套 CTF / 逆向题目入口。**  
 如果你经常遇到这些问题：
 
 **题目不会分类、skill 不知道怎么选、第一步不知道该做什么。**
@@ -56,7 +56,7 @@
 
 这不是一份“把很多 skill 堆在一起”的目录。
 
-这是一个 **面向中文用户的 CTF / 逆向统一入口**。
+这是一个 **面向小白用户的 CTF / 逆向统一入口**。
 
 它真正解决的问题是：
 
@@ -686,7 +686,7 @@ no matches found: ctf-*
 - [`START-HERE.md`](./START-HERE.md)：最快上手，建议先看
 - [`SKILL-INDEX.md`](./SKILL-INDEX.md)：所有 skill 的索引
 - [`docs/USAGE.md`](./docs/USAGE.md)：更完整的使用说明
-- [`docs/LINUXDO.md`](./docs/LINUXDO.md)：LinuxDo 发帖与中文社区建议
+- [`docs/LINUXDO.md`](./docs/LINUXDO.md)：LinuxDo 发帖与小白社区建议
 - [`docs/PUBLISHING.md`](./docs/PUBLISHING.md)：GitHub 发布前检查清单
 - [`docs/LOCALIZATION.md`](./docs/LOCALIZATION.md)：汉化策略与约定
 
@@ -715,7 +715,7 @@ python3 scripts/validate_skills.py
 
 ## 加入社区共建生态
 
-如果你认同这件事，欢迎一起把它做成中文用户真正会用的 CTF / 逆向技能入口。
+如果你认同这件事，欢迎一起把它做成小白用户真正会用的 CTF / 逆向技能入口。
 
 你可以这样参与：
 
@@ -738,5 +738,5 @@ python3 scripts/validate_skills.py
 </p>
 
 <p align="center">
-  <i>这个项目真正解决的，不是“skill 不够多”，而是“中文用户的第一步总是最难开始”。</i>
+  <i>这个项目真正解决的，不是“skill 不够多”，而是“小白用户的第一步总是最难开始”。</i>
 </p>
