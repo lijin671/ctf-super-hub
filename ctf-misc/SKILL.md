@@ -1,11 +1,12 @@
 ---
-name: "CTF•杂项"
+name: ctf-misc
 description: "用于编码题、pyjail、bash jail、RF/SDR、DNS 异常、Unicode、奇特语言、QR、音频、约束求解、博弈论与沙箱逃逸等跨类或边缘 CTF 题;触发名:ctf-misc"
 license: MIT
 compatibility: Requires filesystem-based agent (Claude Code or similar) with bash, Python 3, and internet access for tool installation.
 allowed-tools: Bash Read Write Edit Glob Grep Task WebFetch WebSearch Skill
 metadata:
   user-invocable: "false"
+  display_name: "CTF•杂项"
 ---
 
 # CTF Miscellaneous

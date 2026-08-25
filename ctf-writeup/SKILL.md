@@ -1,5 +1,5 @@
 ---
-name: "CTF•题解写作"
+name: ctf-writeup
 description: "用于把已经完成的解题过程整理成结构化、可复现、可提交的 CTF 题解文档，适合赛后复盘、队内同步与对外提交说明;触发名:ctf-writeup"
 license: MIT
 compatibility: Requires filesystem-based agent (Claude Code or similar) with bash and Python 3.
@@ -7,6 +7,7 @@ allowed-tools: Bash Read Write Edit Glob Grep Task WebFetch WebSearch
 metadata:
   user-invocable: "true"
   argument-hint: "[challenge-name]"
+  display_name: "CTF•题解写作"
 ---
 
 # CTF Write-up Generator

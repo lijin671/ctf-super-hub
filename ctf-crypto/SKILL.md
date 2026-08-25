@@ -1,11 +1,12 @@
 ---
-name: "CTF•密码学"
+name: ctf-crypto
 description: "用于 RSA、AES、ECC、格攻击、LWE、CVP、Coppersmith、Pollard、Wiener、填充预言机、GCM、KDF、伪随机数与零知识证明等密码学和数学类 CTF 题;触发名:ctf-crypto"
 license: MIT
 compatibility: Requires filesystem-based agent (Claude Code or similar) with bash, Python 3, and internet access for tool installation.
 allowed-tools: Bash Read Write Edit Glob Grep Task WebFetch WebSearch
 metadata:
   user-invocable: "false"
+  display_name: "CTF•密码学"
 ---
 
 # CTF Cryptography

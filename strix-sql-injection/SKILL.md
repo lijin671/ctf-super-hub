@@ -1,6 +1,8 @@
 ---
-name: Strix•SQL 注入
+name: strix-sql-injection
 description: Strix SQL 注入测试手册,覆盖 union、blind、error-based 与 ORM 绕过技巧;触发名:strix-sql-injection
+metadata:
+  display_name: "Strix•SQL 注入"
 ---
 
 # SQL Injection

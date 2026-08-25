@@ -1,6 +1,8 @@
 ---
-name: Strix•路径穿越与文件包含
+name: strix-path-traversal-lfi-rfi
 description: Strix 路径穿越与文件包含测试手册,覆盖本地/远程文件访问与代码执行链;触发名:strix-path-traversal-lfi-rfi
+metadata:
+  display_name: "Strix•路径穿越与文件包含"
 ---
 
 # Path Traversal / LFI / RFI

@@ -1,11 +1,12 @@
 ---
-name: "CTF•AI/ML 攻防"
+name: ctf-ai-ml
 description: "用于对抗样本、模型提取、提示注入、成员推断、训练投毒、LoRA 滥用、LLM 越狱等 AI/ML 相关 CTF 题;触发名:ctf-ai-ml"
 license: MIT
 compatibility: Requires filesystem-based agent (Claude Code or similar) with bash, Python 3, and internet access for tool installation.
 allowed-tools: Bash Read Write Edit Glob Grep Task WebFetch WebSearch
 metadata:
   user-invocable: "false"
+  display_name: "CTF•AI/ML 攻防"
 ---
 
 # CTF AI/ML

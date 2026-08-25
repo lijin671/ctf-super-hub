@@ -1,6 +1,8 @@
 ---
-name: Strix•XSS 测试
+name: strix-xss
 description: Strix XSS 测试手册,覆盖反射型、存储型、DOM 型向量与 CSP 绕过;触发名:strix-xss
+metadata:
+  display_name: "Strix•XSS 测试"
 ---
 
 # XSS

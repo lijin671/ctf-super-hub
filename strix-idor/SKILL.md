@@ -1,6 +1,8 @@
 ---
-name: Strix•IDOR 测试
+name: strix-idor
 description: Strix IDOR/BOLA 测试手册,覆盖对象级授权失效与跨账户数据访问;触发名:strix-idor
+metadata:
+  display_name: "Strix•IDOR 测试"
 ---
 
 # IDOR

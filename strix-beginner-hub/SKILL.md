@@ -1,6 +1,8 @@
 ---
-name: Strix•新手入口
+name: strix-beginner-hub
 description: "给中文用户和新手用的 Strix Lite 统一入口：先判断该用哪一个 strix-* 工具或漏洞测试 skill，再给最小化起手步骤；适合在 Web 安全测试、工具链使用、漏洞验证时不知道先用哪个 Strix skill 的场景;触发名:strix-beginner-hub"
+metadata:
+  display_name: "Strix•新手入口"
 ---
 
 # Strix 新手入口

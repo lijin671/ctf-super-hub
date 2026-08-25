@@ -1,5 +1,5 @@
 ---
-name: "CTF•挑战调度器"
+name: solve-challenge
 description: "用于在 CTF 挑战开始时做首轮分类、轻量 triage 与 skill 路由，识别主导类别后转到对应 ctf-* skill，类别已明确时也可直接作为入口;触发名:solve-challenge"
 license: MIT
 compatibility: Requires filesystem-based agent (Claude Code or similar) with bash, Python 3, and internet access. Orchestrates other ctf-* skills.
@@ -7,6 +7,7 @@ allowed-tools: Bash Read Write Edit Glob Grep Task WebFetch WebSearch Skill
 metadata:
   user-invocable: "true"
   argument-hint: "[category] [challenge-file-or-url]"
+  display_name: "CTF•挑战调度器"
 ---
 
 # CTF Challenge Solver

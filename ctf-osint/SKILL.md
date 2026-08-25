@@ -1,11 +1,12 @@
 ---
-name: "CTF•开源情报"
+name: ctf-osint
 description: "用于公开资料检索、社交媒体分析、地理定位、DNS、用户名枚举、反向图片搜索、历史快照、公开记录与坐标识别等 OSINT 类 CTF 题;触发名:ctf-osint"
 license: MIT
 compatibility: Requires filesystem-based agent (Claude Code or similar) with bash, Python 3, and internet access for OSINT lookups.
 allowed-tools: Bash Read Write Edit Glob Grep Task WebFetch WebSearch
 metadata:
   user-invocable: "false"
+  display_name: "CTF•开源情报"
 ---
 
 # CTF OSINT

@@ -1,6 +1,8 @@
 ---
-name: Strix•业务逻辑漏洞
+name: strix-business-logic
 description: Strix 业务逻辑漏洞测试手册,覆盖流程绕过、状态操控与领域约束破坏;触发名:strix-business-logic
+metadata:
+  display_name: "Strix•业务逻辑漏洞"
 ---
 
 # Business Logic Flaws

@@ -1,11 +1,12 @@
 ---
-name: "CTF•数字取证"
+name: ctf-forensics
 description: "用于磁盘镜像、内存转储、事件日志、PCAP、隐写分析、Windows 注册表、音频信号、Docker 镜像、coredump 以及已删除文件与凭据恢复等取证类 CTF 题;触发名:ctf-forensics"
 license: MIT
 compatibility: Requires filesystem-based agent (Claude Code or similar) with bash, Python 3, and internet access for tool installation.
 allowed-tools: Bash Read Write Edit Glob Grep Task WebFetch WebSearch
 metadata:
   user-invocable: "false"
+  display_name: "CTF•数字取证"
 ---
 
 # CTF Forensics & Blockchain

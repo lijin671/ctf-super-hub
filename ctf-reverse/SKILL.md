@@ -1,11 +1,12 @@
 ---
-name: "CTF•逆向工程"
+name: ctf-reverse
 description: "用于二进制、APK、WASM、固件、自定义虚拟机、字节码、游戏客户端、类恶意加载器以及反调试/反分析逻辑等逆向类 CTF 题;触发名:ctf-reverse"
 license: MIT
 compatibility: Requires filesystem-based agent (Claude Code or similar) with bash, Python 3, and internet access for tool installation.
 allowed-tools: Bash Read Write Edit Glob Grep Task WebFetch WebSearch
 metadata:
   user-invocable: "false"
+  display_name: "CTF•逆向工程"
 ---
 
 # CTF Reverse Engineering

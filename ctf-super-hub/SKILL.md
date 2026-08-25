@@ -1,6 +1,8 @@
 ---
-name: "CTF•超级总控"
+name: ctf-super-hub
 description: "面向 CTF 新手与综合题的统一总控 skill。保持原有两种主模式：1) 自动分流，2) 先头脑风暴再分流。分流目标既可以是 ctf-*，也可以在 Web/接口/漏洞验证阶段增强到 strix-*；适合不知道该用哪个 skill、想边做边学、又不想自己先判断何时切换到工具链或漏洞专项的场景;触发名:ctf-super-hub"
+metadata:
+  display_name: "CTF•超级总控"
 ---
 
 # CTF 超级总控

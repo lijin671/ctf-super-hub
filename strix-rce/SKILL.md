@@ -1,6 +1,8 @@
 ---
-name: Strix•远程代码执行
+name: strix-rce
 description: Strix RCE 测试手册,覆盖命令注入、反序列化、模板注入与代码求值;触发名:strix-rce
+metadata:
+  display_name: "Strix•远程代码执行"
 ---
 
 # RCE

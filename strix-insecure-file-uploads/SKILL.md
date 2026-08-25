@@ -1,6 +1,8 @@
 ---
-name: Strix•不安全文件上传
+name: strix-insecure-file-uploads
 description: Strix 文件上传安全测试手册,覆盖扩展名绕过、Content-Type 操控与路径穿越;触发名:strix-insecure-file-uploads
+metadata:
+  display_name: "Strix•不安全文件上传"
 ---
 
 # Insecure File Uploads

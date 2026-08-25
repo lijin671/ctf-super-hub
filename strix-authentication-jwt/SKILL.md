@@ -1,6 +1,8 @@
 ---
-name: Strix•JWT 身份认证测试
+name: strix-authentication-jwt
 description: Strix JWT 与 OIDC 安全测试手册,覆盖令牌伪造、算法混淆与声明篡改;触发名:strix-authentication-jwt
+metadata:
+  display_name: "Strix•JWT 身份认证测试"
 ---
 
 # Authentication / JWT / OIDC

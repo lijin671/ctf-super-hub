@@ -1,6 +1,8 @@
 ---
-name: Strix•标准扫描
+name: strix-standard
 description: Strix 标准安全评估模式,在系统性与覆盖率之间保持平衡;触发名:strix-standard
+metadata:
+  display_name: "Strix•标准扫描"
 ---
 
 # Standard Testing Mode

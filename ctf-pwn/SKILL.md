@@ -1,11 +1,12 @@
 ---
-name: "CTF•二进制利用"
+name: ctf-pwn
 description: "用于缓冲区溢出、格式化字符串、堆利用、ROP、ret2libc、shellcode、内核利用、seccomp 绕过与沙箱逃逸等 pwn 类 CTF 题;触发名:ctf-pwn"
 license: MIT
 compatibility: Requires filesystem-based agent (Claude Code or similar) with bash, Python 3, and internet access for tool installation.
 allowed-tools: Bash Read Write Edit Glob Grep Task WebFetch WebSearch
 metadata:
   user-invocable: "false"
+  display_name: "CTF•二进制利用"
 ---
 
 # CTF Binary Exploitation (Pwn)

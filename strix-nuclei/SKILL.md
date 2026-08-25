@@ -1,6 +1,8 @@
 ---
-name: Strix•Nuclei 用法
+name: strix-nuclei
 description: Strix Nuclei 命令手册,覆盖模板选择、高吞吐执行与自动化边界控制;触发名:strix-nuclei
+metadata:
+  display_name: "Strix•Nuclei 用法"
 ---
 
 # Nuclei CLI Playbook

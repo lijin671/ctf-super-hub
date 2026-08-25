@@ -1,6 +1,8 @@
 ---
-name: Strix•httpx 用法
+name: strix-httpx
 description: Strix httpx 探测命令手册,覆盖探针参数、输出格式与自动化安全用法;触发名:strix-httpx
+metadata:
+  display_name: "Strix•httpx 用法"
 ---
 
 # httpx CLI Playbook

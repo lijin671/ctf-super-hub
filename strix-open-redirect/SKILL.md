@@ -1,6 +1,8 @@
 ---
-name: Strix•开放重定向
+name: strix-open-redirect
 description: Strix 开放重定向测试手册,覆盖钓鱼跳转、OAuth 令牌窃取与白名单绕过;触发名:strix-open-redirect
+metadata:
+  display_name: "Strix•开放重定向"
 ---
 
 # Open Redirect

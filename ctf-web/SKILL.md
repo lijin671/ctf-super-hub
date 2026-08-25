@@ -1,11 +1,12 @@
 ---
-name: "CTF•Web 漏洞"
+name: ctf-web
 description: "用于 XSS、SQL 注入、SSTI、SSRF、XXE、JWT、鉴权绕过、文件上传、请求走私、OAuth/OIDC、SAML 与原型污染等 Web 类 CTF 题;触发名:ctf-web"
 license: MIT
 compatibility: Requires filesystem-based agent (Claude Code or similar) with bash, Python 3, and internet access for tool installation.
 allowed-tools: Bash Read Write Edit Glob Grep Task WebFetch WebSearch
 metadata:
   user-invocable: "false"
+  display_name: "CTF•Web 漏洞"
 ---
 
 # CTF Web Exploitation

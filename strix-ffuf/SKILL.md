@@ -1,6 +1,8 @@
 ---
-name: Strix•ffuf 用法
+name: strix-ffuf
 description: Strix ffuf 模糊测试命令手册,覆盖匹配器、过滤器与自动化友好参数;触发名:strix-ffuf
+metadata:
+  display_name: "Strix•ffuf 用法"
 ---
 
 # ffuf CLI Playbook

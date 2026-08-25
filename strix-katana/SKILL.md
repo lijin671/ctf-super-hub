@@ -1,6 +1,8 @@
 ---
-name: Strix•Katana 用法
+name: strix-katana
 description: Strix Katana 爬虫命令手册,覆盖深度、JS 抓取与稳定并发控制;触发名:strix-katana
+metadata:
+  display_name: "Strix•Katana 用法"
 ---
 
 # Katana CLI Playbook

@@ -1,6 +1,8 @@
 ---
-name: Strix•CSRF 测试
+name: strix-csrf
 description: Strix CSRF 测试手册,覆盖 token 绕过、SameSite、CORS 误配与状态变更滥用;触发名:strix-csrf
+metadata:
+  display_name: "Strix•CSRF 测试"
 ---
 
 # CSRF

@@ -1,6 +1,8 @@
 ---
-name: Strix•功能级授权缺陷
+name: strix-broken-function-level-authorization
 description: Strix 功能级授权缺陷测试手册,覆盖操作级权限失效、管理功能越权与 API 操作绕过;触发名:strix-broken-function-level-authorization
+metadata:
+  display_name: "Strix•功能级授权缺陷"
 ---
 
 # Broken Function Level Authorization (BFLA)

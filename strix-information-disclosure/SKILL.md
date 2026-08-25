@@ -1,6 +1,8 @@
 ---
-name: Strix•信息泄露测试
+name: strix-information-disclosure
 description: Strix 信息泄露测试手册,覆盖报错、调试端点、元数据泄露与源码暴露;触发名:strix-information-disclosure
+metadata:
+  display_name: "Strix•信息泄露测试"
 ---
 
 # Information Disclosure

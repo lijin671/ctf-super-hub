@@ -1,6 +1,8 @@
 ---
-name: Strix•sqlmap 用法
+name: strix-sqlmap
 description: Strix sqlmap 命令手册,覆盖目标语法、无交互执行与常见枚举流程;触发名:strix-sqlmap
+metadata:
+  display_name: "Strix•sqlmap 用法"
 ---
 
 # sqlmap CLI Playbook

@@ -1,9 +1,10 @@
 ---
-name: "CTF•新手入口"
+name: ctf-beginner-hub
 description: "面向中文用户和新手的统一入口，保持原有两种模式：1) 自动分流，2) 先头脑风暴再分流。分流目标既可以是 ctf-*，也可以在 Web/接口/漏洞验证阶段增强到 strix-*；适合不知道该用哪个 skill、想先理清题意、又不想自己先判断何时该切到工具链或漏洞专项的场景;触发名:ctf-beginner-hub"
 argument-hint: "[auto|brainstorm] [challenge-file-or-url-or-description]"
 metadata:
   user-invocable: "true"
+  display_name: "CTF•新手入口"
 ---
 
 # CTF 新手入口

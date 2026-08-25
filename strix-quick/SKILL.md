@@ -1,6 +1,8 @@
 ---
-name: Strix•快速扫描
+name: strix-quick
 description: Strix 快速安全评估模式,面向高影响漏洞的限时测试;触发名:strix-quick
+metadata:
+  display_name: "Strix•快速扫描"
 ---
 
 # Quick Testing Mode

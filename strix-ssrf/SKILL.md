@@ -1,6 +1,8 @@
 ---
-name: Strix•SSRF 测试
+name: strix-ssrf
 description: Strix SSRF 测试手册,覆盖云元数据访问、内网服务发现与协议走私;触发名:strix-ssrf
+metadata:
+  display_name: "Strix•SSRF 测试"
 ---
 
 # SSRF
